@@ -8,12 +8,9 @@ A smart garbage collection system built using Flutter and Firebase that uses sen
 | ----------------------------- | ----------------------------- | ----------------------------- |
 
 
-| ![](./screenshots/287408692_1331120143965462_3578953342751810858_n.jpg) | ![](./screenshots/287799696_539609414582501_1011414851616122114_n.jpg) | 
+| | ![](./screenshots/280270009_441553114325299_3471035679002628739_n.png) | ![](./screenshots/287799696_539609414582501_1011414851616122114_n.jpg) |
 | ----------------------------- | ----------------------------- |
 
-
-| ![](./screenshots/280270009_441553114325299_3471035679002628739_n.png) | |
-| ----------------------------- | 
 
 ## Features
 
@@ -26,9 +23,28 @@ A smart garbage collection system built using Flutter and Firebase that uses sen
 - Firebase for real-time database and notification services
 - ESP32 and HC-SR05 sensors for garbage bin monitoring
 
+## Getting Started
+
+### Prerequisites
+
+- Install the latest version of Flutter on your machine
+- Set up a Firebase project and download the configuration files
+
+### Installing
+
+1. Clone the repository to your local machine
+2. In the terminal, navigate to the project directory and run `flutter pub get`
+3. Add the Firebase configuration files to the project in the `android/app` and `ios/Runner` directories
+4. Run the app using `flutter run` or through an IDE
+
+### Configuration
+
+1. Set up the ESP32 and sensors.
+2. Connect the Arduino to the Firebase firestore database using the configuration files
+
 ### Note about `FirestorePoubelle.ino`
 
-The `Firestore_Poubelle.ino` file in the repository contains the sketch used for the ESP32 microcontroller to communicate with Firebase Firestore. The sketch should be uploaded to the ESP32 using the Arduino IDE or a similar programming environment.
+The `FirestorePoubelle.ino` file in the repository contains the sketch used for the ESP32 microcontroller to communicate with Firebase Firestore. The sketch should be uploaded to the ESP32 using the Arduino IDE or a similar programming environment.
 
 ## Finding the Shortest Route to a Selected Garbage Bin
 
