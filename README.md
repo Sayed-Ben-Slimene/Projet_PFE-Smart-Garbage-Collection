@@ -6,7 +6,9 @@ A smart garbage collection system built using Flutter and Firebase that uses sen
 
 | ![](./screenshots/image1.jpg) | ![](./screenshots/image2.jpg) | ![](./screenshots/image3.jpg) |
 | ----------------------------- | ----------------------------- | ----------------------------- |
-| ![](./screenshots/280109543_556011779203584_8357172154625432704_n.png) |
+
+
+| ![](./screenshots/280270009_441553114325299_3471035679002628739_n.png) | ![](./screenshots/280109543_556011779203584_8357172154625432704_n.png) |
 | ----------------------------- |
 
 ## Features
